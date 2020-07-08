@@ -54,3 +54,31 @@ stack.pop();
       queue.push(3);
       queue.pop();
 ```
+
+### 二叉树
+</br>
+`前序中序后序，指的是对于中间节点`</br>
+ `前序 中间左边右边`</br>
+ `中序 左边中间右边`</br>
+ `后序 左边右边中间`</br>
+ 
+ ```javascript
+    function Node(value){
+        this.value=value;
+        this.left = null;
+        this.right = null;
+    };
+    let a= new Node('a');
+    let b= new Node('b');
+    let c= new Node('c');
+    let d= new Node('d');
+    let e= new Node('e');
+    let f= new Node('f');
+    
+    a.left = b;
+    a.right = c;
+    b.left = d;
+    b.right = e;
+    c.left = f;
+    
+ ```

@@ -146,3 +146,15 @@ quickSort(arr);
 console.log(arr);
 
 ```
+
+### 二叉树的前序遍历
+```javascript
+    function f1(root) {
+      if(root ==null)return;
+      f1(root.left)
+      f1(root.right)
+      console.log(root.value)
+    }
+    f1(a);
+
+```
