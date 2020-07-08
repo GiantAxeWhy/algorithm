@@ -1,7 +1,7 @@
 module.exports = {
     title: 'whyFUCKalgorithm',
     head: [
-        ['link', {rel: 'icon', href: 'https://open.weixin.qq.com/qr/code?username=a_javaboy'}]
+        ['link', {rel: 'icon', href: 'https://github.com/GiantAxeWhy/algorithm.git'}]
     ],
     themeConfig: {
         logo: 'https://open.weixin.qq.com/qr/code?username=a_javaboy',

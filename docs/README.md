@@ -6,11 +6,6 @@ tagline: JavaScript算法修炼手册
 actionText: 开始学习 →
 actionLink: /springboot/
 features:
-- title: 算法部分请配合结构部分食用
-
-- title: 成系列
- 
-- title: 有案例
- 
-
+- title: 算法请结合结构
+footer: https://github.com/GiantAxeWhy/algorithm.git
 ---
